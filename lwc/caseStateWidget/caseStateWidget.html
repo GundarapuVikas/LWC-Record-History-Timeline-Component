@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Case State Track" icon-name="standard:case_change_status">
+        <div class="slds-grid slds-gutters slds-m-around_medium">
+            <template for:each={caseTrackData} for:item="item" for:index="index">
+                <div class="slds-col slds-align_absolute-center" key={item.state}>
+                    <span><b>{item.state}:</b> {item.duration} days</span>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

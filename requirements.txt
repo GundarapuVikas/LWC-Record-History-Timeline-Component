@@ -1,0 +1,15 @@
+1. Create a reusable component which will display timeline along with the events using FieldHistory Object (Ex: AccountHistory, OpportunityHistory, CustomObjectHistory)
+
+2. Make the component available to all type record pages (Account, Opportunity, Custom Objects etc)
+
+3. Provide a field filter to view events for a particular filter and its events on the timeline
+
+4. Provide a widget to give details about the record how many days a record in the state
+
+	Ex: For a Case record, New - 4 days, In Progress - 2 days, On Hold - 2days, Closed - 5 days
+
+5. Explore options to make a good like and feel for timeline and along with activities
+
+
+---------------------
+Process automation in deep/differences etc(process builder,flow,workflow,approval)
